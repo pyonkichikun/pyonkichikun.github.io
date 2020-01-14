@@ -1,4 +1,4 @@
-$(function(){
+(function(){
 
   $('.li').click(function() {
     const $c = $('#c');
@@ -9,17 +9,17 @@ $(function(){
     }
   });
 
-  $('#c-1').click(function() {
+  $('#c-1-1').click(function() {
     $(this).addClass('close').fadeOut(500);
   });
 
-  $('#c-2').click(function() {
+  $('#c-1-2').click(function() {
     $(this).addClass('close').slideUp(500);
   });
 
   $('#d-1-1').click(function() {
     const $c = $('#c');
-    const $c1 = $('#c-1');
+    const $c1 = $('#c-1-1');
     if ($c.hasClass('close')) {
       $c.removeClass('close').slideDown(1000);
     } else if ($c1.hasClass('close')) {
@@ -31,7 +31,7 @@ $(function(){
 
   $('#d-1-2').click(function() {
     const $c = $('#c');
-    const $c2 = $('#c-2');
+    const $c2 = $('#c-1-2');
     if ($c.hasClass('close')) {
       $c.removeClass('close').slideDown(1000);
     } else if ($c2.hasClass('close')) {
