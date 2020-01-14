@@ -1,4 +1,4 @@
-@media (max-width:1000px) {
+@media (max-width: 1000px min-width: 670px) {
 
   .a {
     height: 200px
@@ -32,7 +32,7 @@
 
 }
 
-@media (max-width:670px) {
+@media (max-width: 670px) {
 
   .b {
     height: 50px;
