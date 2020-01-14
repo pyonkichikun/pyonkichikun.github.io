@@ -1,5 +1,9 @@
 @media (max-width: 670px) {
 
+  body {
+    height: 500px;
+  }
+
   .c-1 {
     width: 75%;
   }
@@ -8,34 +12,8 @@
 
 @media (max-width: 1000px) and (min-width: 670px) {
 
-  .a {
-    height: 150px
-  }
-
-  .b {
-    height: 50px;
-  }
-
-  .c {
-    height: 350px;
-  }
-
-  .c-1 {
-    height: 150px;
-  }
-
-  .el {
-    width: 150px;
-    height: 150px;
-  }
-
-  .d {
-    height: 300px;
-  }
-
-  .d-1 {
-    width: 300px;
-    height: 150px;
+  body {
+    height: 800px;
   }
 
 }
