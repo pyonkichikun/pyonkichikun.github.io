@@ -1,4 +1,4 @@
-(function(){
+$(function(){
 
   $('.li').click(function() {
     const $c = $('#c');
