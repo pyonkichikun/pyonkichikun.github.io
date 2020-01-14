@@ -29,23 +29,30 @@
   position: relative;
 }
 
+.c-1 {
+  width: 60%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
 .el {
   width: 100px;
   height: 100px;
 }
 
-.c-1 {
+.c-1-1 {
   background: red;
-  position: absolute;
-  top: 25%;
-  left: 20%;
+  float: left;
 }
 
-.c-2 {
+.c-1-2 {
   background: orange;
-  position: absolute;
-  top: 25%;
-  right: 20%;
+  float: right;
 }
 
 .d {
