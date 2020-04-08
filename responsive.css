@@ -1,13 +1,10 @@
 @media (max-width: 1000px) {
-
   body {
     height: 800px;
   }
-
 }
 
 @media (max-width: 670px) {
-
   body {
     height: 450px;
   }
@@ -15,5 +12,4 @@
   .c-1 {
     width: 80%;
   }
-
 }
