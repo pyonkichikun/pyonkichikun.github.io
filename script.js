@@ -1,7 +1,7 @@
 $(function() {
   var $c = $('#c');
 
-  $('li').click(function() {
+  $('.li').click(function() {
     if ($c.hasClass('close')) {
       $c.removeClass('close').slideDown(1000);
     } else {
