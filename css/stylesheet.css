@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue",
+ Arial,
+ "Hiragino Kaku Gothic ProN",
+ "Hiragino Sans",
+ Meiryo,
+ sans-serif;
+  height: 600px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.a {
+  margin: 0;
+  padding: 0;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.a li {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.a li:nth-of-type(odd) {
+  background-color: skyblue;
+}
+
+.a li:nth-of-type(even) {
+  background-color: blue;
+}
+
+.b {
+  background-color: pink;
+  height: 5%;
+}
+
+.c {
+  background-color: gray;
+  height: 35%;
+  position: relative;
+}
+
+.c-1 {
+  width: 60%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.el {
+  width: 100px;
+  height: 100px;
+}
+
+.c-1-1 {
+  background-color: red;
+  float: left;
+}
+
+.c-1-2 {
+  background-color: orange;
+  float: right;
+}
+
+.d {
+  background-color: pink;
+  height: 30%;
+  position: relative;
+}
+
+.d-1 {
+  width: 200px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.d-1-1 {
+  background-color: lime;
+}
+
+.d-1-2 {
+  background-color: green;
+}
+
+.e {
+  background-color: black;
+  height: 8%;
+}
+
+.e:hover {
+  background-color: purple;
+}
