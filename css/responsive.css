@@ -8,7 +8,16 @@
   body {
     height: 450px;
   }
+  .el {
+    width: 60px;
+    height: 60px;
+  }
   .c-1 {
-    width: 80%;
+    height: 60px;
+  }
+  .d-1 {
+    width: 120px;
+    height: 60px;
   }
 }
+/*# sourceMappingURL=responsive.css.map */
