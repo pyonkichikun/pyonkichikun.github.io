@@ -1,18 +1,18 @@
 * {
-  margin: 0;
-  padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
+  height: 600px;
   font-family: "Helvetica Neue",
  Arial,
  "Hiragino Kaku Gothic ProN",
  "Hiragino Sans",
  Meiryo,
  sans-serif;
-  height: 600px;
 }
 
 li {
@@ -23,9 +23,12 @@ a {
   text-decoration: none;
 }
 
+.el {
+  width: 100px;
+  height: 100px;
+}
+
 .a {
-  margin: 0;
-  padding: 0;
   height: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,25 +55,20 @@ a {
 }
 
 .c {
+  position: relative;
   background-color: gray;
   height: 35%;
-  position: relative;
 }
 
 .c-1 {
-  width: 60%;
-  height: 100px;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  margin: auto;
-}
-
-.el {
-  width: 100px;
+  width: 60%;
   height: 100px;
+  margin: auto;
 }
 
 .c-1-1 {
@@ -84,22 +82,22 @@ a {
 }
 
 .d {
+  position: relative;
   background-color: pink;
   height: 30%;
-  position: relative;
 }
 
 .d-1 {
-  width: 200px;
-  height: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  width: 200px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: auto;
 }
 
@@ -115,7 +113,4 @@ a {
   background-color: black;
   height: 8%;
 }
-
-.e:hover {
-  background-color: purple;
-}
+/*# sourceMappingURL=stylesheet.css.map */
