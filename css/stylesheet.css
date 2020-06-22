@@ -6,7 +6,7 @@
 }
 
 body {
-  height: 600px;
+  height: 625px;
   font-family: "Helvetica Neue",
  Arial,
  "Hiragino Kaku Gothic ProN",
@@ -23,44 +23,37 @@ a {
   text-decoration: none;
 }
 
-.el {
-  width: 100px;
-  height: 100px;
-}
-
-.a {
+.header {
   height: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.a li {
-  -webkit-box-flex: 1;
-      -ms-flex: auto;
-          flex: auto;
+.header li {
+  width: 20%;
 }
 
-.a li:nth-of-type(odd) {
+.header li:nth-of-type(odd) {
   background-color: skyblue;
 }
 
-.a li:nth-of-type(even) {
+.header li:nth-of-type(even) {
   background-color: blue;
 }
 
-.b {
+.space1 {
   background-color: pink;
   height: 5%;
 }
 
-.c {
+.main1 {
   position: relative;
   background-color: gray;
   height: 35%;
 }
 
-.c-1 {
+.main1-eyes {
   position: absolute;
   top: 0;
   right: 0;
@@ -71,23 +64,28 @@ a {
   margin: auto;
 }
 
-.c-1-1 {
+.main1-eyes-left, .main1-eyes-right {
+  width: 100px;
+  height: 100px;
+}
+
+.main1-eyes-left {
   background-color: red;
   float: left;
 }
 
-.c-1-2 {
+.main1-eyes-right {
   background-color: orange;
   float: right;
 }
 
-.d {
+.main2 {
   position: relative;
   background-color: pink;
   height: 30%;
 }
 
-.d-1 {
+.main2-mouth {
   position: absolute;
   top: 0;
   right: 0;
@@ -101,16 +99,20 @@ a {
   margin: auto;
 }
 
-.d-1-1 {
+.main2-mouth-left, .main2-mouth-right {
+  width: 50%;
+}
+
+.main2-mouth-left {
   background-color: lime;
 }
 
-.d-1-2 {
+.main2-mouth-right {
   background-color: green;
 }
 
-.e {
+.space2 {
   background-color: black;
-  height: 8%;
+  height: 10%;
 }
 /*# sourceMappingURL=stylesheet.css.map */
