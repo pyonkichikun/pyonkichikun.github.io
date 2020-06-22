@@ -1,43 +1,41 @@
 $(function() {
-  var $c = $('#c');
+  var $main1 = $('#main1');
+  var $eyesLeft = $('#eyes-left')
+  var $eyesRight = $('#eyes-right')
 
-  $('.li').click(function() {
-    if ($c.hasClass('close')) {
-      $c.removeClass('close').slideDown(1000);
+  $('.ear').click(function() {    
+    if ($main1.hasClass('close')) {
+      $main1.removeClass('close').slideDown(1000);
     } else {
-      $c.addClass('close').slideUp(1000);
+      $main1.addClass('close').slideUp(1000);
     }
   });
 
-  $('#c-1-1').click(function() {
+  $eyesLeft.click(function() {
     $(this).addClass('close').fadeOut(500);
   });
 
-  $('#c-1-2').click(function() {
+  $eyesRight.click(function() {
     $(this).addClass('close').slideUp(500);
   });
 
-  $('#d-1-1').click(function() {
-    var $c11 = $('#c-1-1');
-
-    if ($c.hasClass('close')) {
-      $c.removeClass('close').slideDown(1000);
-    } else if ($c11.hasClass('close')) {
-      $c11.removeClass('close').fadeIn(500);
+  $('#mouth-left').click(function() {
+    if ($main1.hasClass('close')) {
+      $main1.removeClass('close').slideDown(1000);
+    } else if ($eyesLeft.hasClass('close')) {
+      $eyesLeft.removeClass('close').fadeIn(500);
     } else {
-      $c11.addClass('close').fadeOut(500);
+      $eyesLeft.addClass('close').fadeOut(500);
     }
   });
 
-  $('#d-1-2').click(function() {
-    var $c12 = $('#c-1-2');
-
-    if ($c.hasClass('close')) {
-      $c.removeClass('close').slideDown(1000);
-    } else if ($c12.hasClass('close')) {
-      $c12.removeClass('close').slideDown(500);
+  $('#mouth-right').click(function() {
+    if ($main1.hasClass('close')) {
+      $main1.removeClass('close').slideDown(1000);
+    } else if ($eyesRight.hasClass('close')) {
+      $eyesRight.removeClass('close').slideDown(500);
     } else {
-      $c12.addClass('close').slideUp(500);
+      $eyesRight.addClass('close').slideUp(500);
     }
   });
 });
