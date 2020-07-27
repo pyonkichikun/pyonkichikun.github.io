@@ -1,10 +1,10 @@
-@media (max-width: 1100px) {
+@media (max-width: 1179px) {
   body {
     height: 800px;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 767px) {
   body {
     height: 450px;
   }
