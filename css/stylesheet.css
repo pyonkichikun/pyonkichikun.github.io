@@ -38,11 +38,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 20%;
 }
 
-.header li:nth-of-type(odd) {
+.header li:nth-child(2n+1) {
   background-color: skyblue;
 }
 
-.header li:nth-of-type(even) {
+.header li:nth-child(2n) {
   background-color: blue;
 }
 
