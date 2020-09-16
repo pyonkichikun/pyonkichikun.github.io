@@ -8,19 +8,16 @@
   body {
     height: 450px;
   }
-  .main1-eyes {
+  .main1 ul {
     height: 60px;
   }
-  .main1-eyes-left, .main1-eyes-right {
+  .main1 ul li {
     width: 60px;
     height: 60px;
   }
-  .main2-mouth {
+  .main2 ul {
     width: 120px;
     height: 60px;
-  }
-  .main2-mouth-left, .main2-mouth-right {
-    width: 60px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
