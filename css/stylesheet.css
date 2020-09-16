@@ -23,10 +23,6 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-}
-
 .header {
   height: 20%;
   display: -webkit-box;
@@ -57,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 35%;
 }
 
-.main1-eyes {
+.main1 ul {
   position: absolute;
   top: 0;
   right: 0;
@@ -68,17 +64,17 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
 }
 
-.main1-eyes-left, .main1-eyes-right {
+.main1 ul li {
   width: 100px;
   height: 100px;
 }
 
-.main1-eyes-left {
+.main1 ul li:first-child {
   background-color: red;
   float: left;
 }
 
-.main1-eyes-right {
+.main1 ul li:last-child {
   background-color: orange;
   float: right;
 }
@@ -89,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 30%;
 }
 
-.main2-mouth {
+.main2 ul {
   position: absolute;
   top: 0;
   right: 0;
@@ -103,15 +99,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
 }
 
-.main2-mouth-left, .main2-mouth-right {
+.main2 ul li {
   width: 50%;
 }
 
-.main2-mouth-left {
+.main2 ul li:first-child {
   background-color: lime;
 }
 
-.main2-mouth-right {
+.main2 ul li:last-child {
   background-color: green;
 }
 
