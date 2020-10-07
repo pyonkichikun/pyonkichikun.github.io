@@ -1,13 +1,13 @@
 $(function() {
-  var $main1 = $('#main1');
+  var $top = $('#top');
   var $eye1 = $('#eye1')
   var $eye2 = $('#eye2')
 
   $('.ear').click(function() {    
-    if ($main1.hasClass('close')) {
-      $main1.removeClass('close').slideDown(1000);
+    if ($top.hasClass('close')) {
+      $top.removeClass('close').slideDown(1000);
     } else {
-      $main1.addClass('close').slideUp(1000);
+      $top.addClass('close').slideUp(1000);
     }
   });
 
@@ -20,8 +20,8 @@ $(function() {
   });
 
   $('#mouth1').click(function() {
-    if ($main1.hasClass('close')) {
-      $main1.removeClass('close').slideDown(1000);
+    if ($top.hasClass('close')) {
+      $top.removeClass('close').slideDown(1000);
     } else if ($eye1.hasClass('close')) {
       $eye1.removeClass('close').fadeIn(500);
     } else {
@@ -30,8 +30,8 @@ $(function() {
   });
 
   $('#mouth2').click(function() {
-    if ($main1.hasClass('close')) {
-      $main1.removeClass('close').slideDown(1000);
+    if ($top.hasClass('close')) {
+      $top.removeClass('close').slideDown(1000);
     } else if ($eye2.hasClass('close')) {
       $eye2.removeClass('close').slideDown(500);
     } else {
