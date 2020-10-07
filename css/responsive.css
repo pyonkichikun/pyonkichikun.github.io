@@ -8,14 +8,14 @@
   body {
     height: 450px;
   }
-  .main1 ul {
+  .top ul {
     height: 60px;
   }
-  .main1 ul li {
+  .top ul li {
     width: 60px;
     height: 60px;
   }
-  .main2 ul {
+  .main ul {
     width: 120px;
     height: 60px;
   }
