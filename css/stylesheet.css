@@ -47,67 +47,71 @@ a {
   height: 5%;
 }
 
-.main1 {
-  position: relative;
+.top {
   background-color: gray;
   height: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.main1 ul {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.top ul {
   width: 60%;
   height: 100px;
-  margin: auto;
 }
 
-.main1 ul li {
+.top ul li {
   width: 100px;
   height: 100px;
 }
 
-.main1 ul li:first-child {
+.top ul li:first-child {
   background-color: red;
   float: left;
 }
 
-.main1 ul li:last-child {
+.top ul li:last-child {
   background-color: orange;
   float: right;
 }
 
-.main2 {
-  position: relative;
+.main {
   background-color: pink;
   height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.main2 ul {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.main ul {
   width: 200px;
   height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: auto;
 }
 
-.main2 ul li {
+.main ul li {
   width: 50%;
 }
 
-.main2 ul li:first-child {
+.main ul li:first-child {
   background-color: lime;
 }
 
-.main2 ul li:last-child {
+.main ul li:last-child {
   background-color: green;
 }
 
